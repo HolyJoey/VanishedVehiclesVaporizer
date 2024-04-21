@@ -1,3 +1,6 @@
+--Made by holyjoey.
+--Thank you someoneidfk for the help with my lack of cognitive function
+
 util.require_natives('3095a')
 
 local settings_list = menu.list(menu.my_root(), "Settings", {}, "", function() end)
