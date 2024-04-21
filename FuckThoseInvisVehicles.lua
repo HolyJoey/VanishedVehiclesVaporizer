@@ -2,7 +2,7 @@ util.require_natives('3095a')
 
 local settings_list = menu.list(menu.my_root(), "Settings", {}, "", function() end)
 
-local delay = 1000
+local delay = 10000
 settings_list:slider("Change Delay", {"invischeckdelay"}, "Change the delay between the checks for invisible vehicles", 0, 100000, delay, 1000, function(kys)
     delay = kys
 end)
