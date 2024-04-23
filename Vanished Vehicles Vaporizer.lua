@@ -1,5 +1,4 @@
 --Made by holyjoey.
---Thank you someoneidfk for the help with my lack of cognitive function
 
 util.require_natives('3095a')
 
@@ -29,6 +28,5 @@ end
 menu.toggle_loop(menu.my_root(), "Remove Invisible vehicles", {"fuckinvisveh"}, "Removes invisible vehicles.", function(on)
     RemoveInvisVehicles()
 end)
-
 
 util.keep_running()
